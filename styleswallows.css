@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #ffffd9;
+  font-family: "Georgia Pro Semibold";
+}
+ 
+
+.nav-link {
+	font-size: 28px;
+	text-align: center;
+	color: black;
+	align-items: center;
+}
+
+
+h1 {
+	font-size: 60px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	text-align: left;
+	font-family: "Georgia Pro Cond Black";
+}
+
+h3  {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.headerkuva  {
+	position: relative;
+	background: url(https://diy-magazine.s3.amazonaws.com/d/diy/Artists/W/Wallows/Wallows-2.jpg) no-repeat center;
+	background-size: cover;
+	height: 360px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  clear: both;
+  display: table;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.music {
+        display: flex;
+        align-items: center;
+		flex-direction: row;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		padding-top: 0px;				
+}
+
+.frontpage {
+		text-align: center;
+		margin-left: 300px;
+		margin-right: 300px;	
+}
+
+.spotify  {
+		text-align: center;
+		margin-left: 300px;
+		margin-right: 300px;
+		font-size: 13px;	
+}
+
+.members {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+		flex-direction: row;
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		padding-top: 0px;	
+}
+
+footer {
+    position: relative;
+    height: 70px;
+	padding-top: 40px;
+	align-items: center;
+}
+
+.icons  {
+	text-align: center;
+	padding-bottom: 20px;
+	color: green;
+	align-items: center;
+}
+
+.containermt-3 {
+		width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 0px;
+}
+
+.form-floating {
+        align-items: center;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 0px;
+}
+
+.col-12 {
+		align-items: center;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 0px;
+}
+
+.news {
+		text-align: center;
+}
+	
+	
